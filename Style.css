@@ -1,0 +1,569 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#Navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0, 0, .5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700 !important;
+    font:  36px 'Cookie', cursive;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700 ;
+}
+#navbarSupportedContent button{
+    background-color: #29f700 ;
+    width: 5rem;
+    border-radius: 15px;
+    
+}
+
+.Header_bg {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    /* background-image: url("./Images/Header_image_2.jpeg"); */
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* CSS for Contact Form */
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none; /* Initially hidden */
+    /* width: 50%; */
+    height: 95%;
+    position: absolute;
+}
+
+.input-group {
+    margin: 13px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group input[type="text"], 
+.input-group input[type="tel"],
+.input-group input[type="email"],
+.input-group textarea {
+    padding: 9px;
+    width: 70%;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 12px;
+    background-color: #D4F1F4;
+}
+
+.input-group input[type="text"]:focus, 
+.input-group input[type="tel"]:focus,
+.input-group input[type="email"]:focus,
+.input-group textarea:focus {
+    outline: none;
+}
+
+#cross-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.contact-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+#showFormButton{
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+/* ABOUT    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.king{
+text-align: center;
+padding-top: 10px;
+}
+
+
+/* Style the about section */
+.about-section {
+    display: flex;
+    
+    
+    padding: 20px;
+}
+
+/* Style the image container */
+.image-container {
+    flex: 1; /* Take up 50% of the available space */
+    max-width: 40%;
+}
+
+/* Style the image for responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+/* Style the content container */
+.content-container {
+    flex: 1; /* Take up 50% of the available space */
+    max-width: 70%;
+    text-align: left; /* Align content to the left within its container */
+    padding: 20px;
+}
+
+/* Style the heading and paragraph */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* CSS for the Image boxr */
+ .Imagebox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+ /* CSS for each box */
+  .box {
+            width: calc(33.33% - 20px); /* Adjust the width as needed */
+            margin: 10px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+/* CSS for images */
+.box img {
+            max-width: 100%;
+            height: 50vh;
+        }
+/* Testimonals */
+.testimonials{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+  }
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial{
+    background: #fff;
+    padding: 30px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+/* OUR SERVICES */
+.our h1{
+text-align: center;
+padding-top: 10px;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.service img {
+    max-width: 50%;
+    height: auto;
+}
+
+.service-content {
+    flex: 1;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* FOOTER */
+
+
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+#container{
+    width: 100%;
+    /* background-color: rgb(155, 143, 143); */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.products{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.img-div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.img-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.product-details{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-name{
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.style-code{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.price-tag{
+    /* border: 1px solid red; */
+    width: 90%;
+    font-size: 30px;
+}
+
+.description{
+    width: 90%;
+    text-align: left;
+}
+
+.fabric-details{
+    /* border: 1px solid red; */
+    width: 90%;
+}
+
+.fabric-details ul li{
+    list-style: square;
+}
+
+.in-box{
+    width: 90%;
+}
+
+.product-button{
+    width: 90%;
+}
+
+.product-button button{
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-us-page{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.contact-us-inner{
+    height: 90%; 
+    width: 70%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 40px 0 ;
+    overflow: hidden;
+}

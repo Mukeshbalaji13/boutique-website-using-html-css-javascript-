@@ -1,0 +1,806 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="all.min.css">
+<script src="https://kit.fontawesome.com/793d7b86bc.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="fontawesome.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark" id="Navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BOUTIQUE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="./Index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Index.html#king">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Index.html#our">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Index.html#testimonials">Testimonals</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./contactUs.html">Contact Us</a>
+          </li>
+          </ul>
+         
+    </div>
+  </nav>
+
+  <h1 style="text-align: center;">Products</h1>
+    <div class="border"></div>
+
+    <div id="container"></div>
+
+    <!-- FOOTER-->
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+      <h3>BOUTIQUE</h3>
+
+      <p class="footer-links">
+          <a href="./Index.html#home">Home</a>
+          |
+          <a href="./Index.html#king">About</a>
+          |
+          <a href="./Index.html#our">Our Services</a>
+          |
+          <a href="./Index.html#testimonials">Testimonals</a>
+          |
+          <a href="./contactUs.html">Contact Us</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2024 <strong>Mukesh Balaji</strong> All rights reserved</p>
+  </div>
+
+  <div class="footer-center">
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>chennai</span>
+              Tamil nadu</p>
+      </div>
+
+      <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 9876543210</p>
+      </div>
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:hautrage@gmail.com">boutique@gmail.com</a></p>
+      </div>
+  </div>
+  <div class="footer-right">
+      <p class="footer-company-about">
+          <span>About the company</span>
+          <strong>Boutique</strong> is a boutique designer & embroidary trainer where you can find more creative designs.
+         
+      </p>
+      <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="https://instagram.com/haut_rage?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+  </div>
+</footer>
+
+    <script>
+
+
+      function ContactUs(){
+        window.location.href = 'contactUs.html'
+      }
+    
+    let arr = [
+  // Entry 1
+  {
+    name: "ROYAL BLUE EMBROIDERED SILK SAREE",
+    originalPrice: "₹4799",
+    offerPrice: "₹6499",
+    description: "A regal royal blue silk saree with intricate embroidery. It comes with a matching blouse piece for a complete ethnic look.",
+    styleCode: "RES721ROYAL",
+    set: "Saree & Blouse",
+    composition: "Silk",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/ROYAL BLUE EMBROIDERED SILK SAREE.jpg"
+  },
+  // Entry 2
+  {
+    name: "MAROON VELVET LEHENGA CHOLI SET",
+    originalPrice: "₹3899",
+    offerPrice: "₹5499",
+    description: "A luxurious maroon velvet lehenga choli set with intricate gold embroidery. The set includes a matching choli and dupatta.",
+    styleCode: "MVL693MAROON",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Velvet",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/MAROON VELVET LEHENGA CHOLI SET.webp"
+  },
+  // Entry 3
+  {
+    name: "PEACH EMBELLISHED STRAIGHT KURTA SET",
+    originalPrice: "₹5499",
+    offerPrice: "₹7999",
+    description: "A peach embellished straight kurta set with intricate sequins and threadwork. It is paired with matching straight pants.",
+    styleCode: "PES854PEACH",
+    set: "Kurta & Straight Pants",
+    composition: "Georgette",
+    fit: "Straight fit",
+    care: "Dry clean only",
+    image: "Images/PEACH EMBELLISHED STRAIGHT KURTA SET.jpg"
+  },
+  // Entry 4
+  {
+    name: "BLACK AND GOLDEN BROCADE ANARKALI SUIT",
+    originalPrice: "₹4399",
+    offerPrice: "₹5999",
+    description: "A classic black and golden brocade anarkali suit with intricate patterns. It is paired with matching churidar pants and a dupatta.",
+    styleCode: "BGBA567BLACK",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Brocade",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/BLACK AND GOLDEN BROCADE ANARKALI SUIT.webp"
+  },
+  // Entry 5
+  {
+    name: "WHITE EMBROIDERED NET ANARKALI GOWN",
+    originalPrice: "₹4199",
+    offerPrice: "₹5899",
+    description: "A stunning white net anarkali gown with intricate embroidery. It features a fitted bodice and a flared net bottom.",
+    styleCode: "WEN603WHITE",
+    set: "Anarkali Gown",
+    composition: "Net",
+    fit: "Fitted bodice, Flared net bottom",
+    care: "Dry clean only",
+    image: "Images/WHITE EMBROIDERED NET ANARKALI GOWN.webp"
+  },
+  // Entry 6
+  {
+    name: "GOLDEN BROCADE PALAZZO SUIT",
+    originalPrice: "₹5899",
+    offerPrice: "₹7499",
+    description: "A glamorous golden brocade palazzo suit with intricate patterns on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "GBP742GOLDEN",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Brocade",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/GOLDEN BROCADE PALAZZO SUIT.webp"
+  },
+  // Entry 7
+  {
+    name: "AQUA BLUE EMBROIDERED GEORGETTE LEHENGA",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A gorgeous aqua blue georgette lehenga with intricate embroidery. The set includes a matching choli and dupatta.",
+    styleCode: "AEGL632AQUA",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Georgette",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/AQUA BLUE EMBROIDERED GEORGETTE LEHENGA.webp"
+  },
+  // Entry 8
+  {
+    name: "SILVER EMBELLISHED PALAZZO SUIT",
+    originalPrice: "₹3999",
+    offerPrice: "₹5499",
+    description: "A stylish silver embellished palazzo suit with intricate patterns on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "SEP478SILVER",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Silk",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/SILVER EMBELLISHED PALAZZO SUIT.webp"
+  },
+  // Entry 9
+  {
+    name: "TURQUOISE BLUE EMBROIDERED NET SAREE",
+    originalPrice: "₹4999",
+    offerPrice: "₹6699",
+    description: "A vibrant turquoise blue net saree with intricate embroidery. It comes with a matching blouse piece for a complete ethnic look.",
+    styleCode: "TENS742TURQUOISE",
+    set: "Saree & Blouse",
+    composition: "Net",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/TURQUOISE BLUE EMBROIDERED NET SAREE.webp"
+  },
+  // Entry 10
+  {
+    name: "GOLDEN BROCADE ANARKALI GOWN",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A stunning golden brocade anarkali gown with intricate patterns. It features a fitted bodice and a flowy flare.",
+    styleCode: "GBAG594GOLDEN",
+    set: "Anarkali Gown",
+    composition: "Brocade",
+    fit: "Fitted bodice, Flared bottom",
+    care: "Dry clean only",
+    image: "Images/GOLDEN BROCADE ANARKALI GOWN.webp"
+  },
+
+
+
+  {
+    name: "BLUE SILK ANARKALI SUIT WITH ZARI EMBROIDERY",
+    originalPrice: "₹3499",
+    offerPrice: "₹5999",
+    description: "A stunning blue silk anarkali suit with intricate zari embroidery on the bodice and flare. The set includes a matching churidar and dupatta.",
+    styleCode: "BSA225BLUE",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Silk",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/BLUE SILK ANARKALI SUIT WITH ZARI EMBROIDERY.jpeg"
+  },
+  // Entry 2
+  {
+    name: "PINK EMBROIDERED LEHENGA CHOLI SET",
+    originalPrice: "₹4899",
+    offerPrice: "₹6999",
+    description: "This pink lehenga choli set features intricate embroidery on the blouse and lehenga. The set is completed with a matching net dupatta.",
+    styleCode: "PEL348PINK",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Silk & Net",
+    fit: "Regular fit",
+    care: "Dry clean only",
+    image: "Images/PINK EMBROIDERED LEHENGA CHOLI SET.jpg"
+  },
+  // Entry 3
+  {
+    name: "GOLDEN BROCADE SAREE WITH CONTRAST BORDER",
+    originalPrice: "₹2999",
+    offerPrice: "₹4499",
+    description: "A gorgeous golden brocade saree with a contrasting border. It comes with a matching blouse piece to complete the traditional look.",
+    styleCode: "GBS411GOLD",
+    set: "Saree & Blouse",
+    composition: "Brocade",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/GOLDEN BROCADE SAREE WITH CONTRAST BORDER.avif"
+  },
+  // Entry 4
+  {
+    name: "RED EMBELLISHED ANARKALI GOWN",
+    originalPrice: "₹5299",
+    offerPrice: "₹7999",
+    description: "A stunning red anarkali gown embellished with sequins and threadwork. It features a fitted bodice and a flowy flare.",
+    styleCode: "REG712RED",
+    set: "Anarkali Gown",
+    composition: "Georgette",
+    fit: "Fitted bodice, Flared bottom",
+    care: "Dry clean only",
+    image: "Images/RED EMBELLISHED ANARKALI GOWN.webp"
+  },
+  // Entry 5
+  {
+    name: "GREEN BANARASI SILK SAREE",
+    originalPrice: "₹3699",
+    offerPrice: "₹5499",
+    description: "A classic green Banarasi silk saree with intricate zari weaving. It comes with a matching blouse piece.",
+    styleCode: "GBS623GREEN",
+    set: "Saree & Blouse",
+    composition: "Banarasi Silk",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/GREEN BANARASI SILK SAREE.jpg"
+  },
+  // Entry 6
+  {
+    name: "NAVY BLUE EMBROIDERED PALAZZO SUIT",
+    originalPrice: "₹4599",
+    offerPrice: "₹6399",
+    description: "A stylish navy blue palazzo suit with intricate embroidery on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "NBP821NAVY",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Cotton",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/NAVY BLUE EMBROIDERED PALAZZO SUIT.jpg"
+  },
+  // Entry 7
+  {
+    name: "YELLOW EMBROIDERED NET ANARKALI",
+    originalPrice: "₹5899",
+    offerPrice: "₹7499",
+    description: "A vibrant yellow net anarkali with intricate embroidery. It features a fitted bodice and a flared net bottom.",
+    styleCode: "YEN932YELLOW",
+    set: "Anarkali Suit",
+    composition: "Net",
+    fit: "Fitted bodice, Flared net bottom",
+    care: "Dry clean only",
+    image: "Images/YELLOW EMBROIDERED NET ANARKALI.webp"
+  },
+  // Entry 8
+  {
+    name: "PURPLE BANDHANI PRINT LEHENGA CHOLI",
+    originalPrice: "₹4199",
+    offerPrice: "₹5899",
+    description: "A beautiful purple lehenga choli set with bandhani print. The set includes a matching choli and dupatta.",
+    styleCode: "PBL245PURPLE",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Silk",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/PURPLE BANDHANI PRINT LEHENGA CHOLI.avif"
+  },
+  // Entry 9
+  {
+    name: "WHITE AND GOLDEN BROCADE KURTA SET",
+    originalPrice: "₹3799",
+    offerPrice: "₹5299",
+    description: "A classy white and golden brocade kurta set with intricate patterns. It is paired with white churidar pants.",
+    styleCode: "WGB417WHITE",
+    set: "Kurta & Churidar",
+    composition: "Brocade",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/WHITE AND GOLDEN BROCADE KURTA SET.avif"
+  },
+  // Entry 10
+  {
+    name: "BLACK SILK SAREE WITH ZARI BORDER",
+    originalPrice: "₹3299",
+    offerPrice: "₹4899",
+    description: "A classic black silk saree with a golden zari border. It comes with a matching blouse piece for a complete look.",
+    styleCode: "BSS512BLACK",
+    set: "Saree & Blouse",
+    composition: "Silk",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/BLACK SILK SAREE WITH ZARI BORDER.jpg"
+  },
+
+
+
+
+  {
+    name: "TEAL GREEN EMBROIDERED PALAZZO SUIT",
+    originalPrice: "₹4799",
+    offerPrice: "₹6499",
+    description: "A chic teal green palazzo suit with intricate embroidery on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "TGE721TEAL",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Cotton",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/TEAL GREEN EMBROIDERED PALAZZO SUIT.jpg"
+  },
+  // Entry 2
+  {
+    name: "MUSTARD YELLOW BANARASI SILK SAREE",
+    originalPrice: "₹3899",
+    offerPrice: "₹5499",
+    description: "A stunning mustard yellow Banarasi silk saree with intricate zari weaving. It comes with a matching blouse piece.",
+    styleCode: "MYS729MUSTARD",
+    set: "Saree & Blouse",
+    composition: "Banarasi Silk",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/MUSTARD YELLOW BANARASI SILK SAREE.jpg"
+  },
+  // Entry 3
+  {
+    name: "ROYAL BLUE EMBELLISHED ANARKALI GOWN",
+    originalPrice: "₹5499",
+    offerPrice: "₹7999",
+    description: "A royal blue anarkali gown embellished with sequins and intricate threadwork. It features a fitted bodice and a flowy flare.",
+    styleCode: "RBA842ROYAL",
+    set: "Anarkali Gown",
+    composition: "Georgette",
+    fit: "Fitted bodice, Flared bottom",
+    care: "Dry clean only",
+    image: "Images/ROYAL BLUE EMBELLISHED ANARKALI GOWN.jpg"
+  },
+  // Entry 4
+  {
+    name: "BLACK AND RED BANDHANI PRINT LEHENGA CHOLI",
+    originalPrice: "₹4399",
+    offerPrice: "₹5999",
+    description: "A gorgeous black and red lehenga choli set with bandhani print. The set includes a matching choli and dupatta.",
+    styleCode: "BRBL356BLACK",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Silk",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/BLACK AND RED BANDHANI PRINT LEHENGA CHOLI.webp"
+  },
+  // Entry 5
+  {
+    name: "WHITE EMBROIDERED NET SAREE",
+    originalPrice: "₹4199",
+    offerPrice: "₹5899",
+    description: "A beautiful white net saree with intricate embroidery. It comes with a matching blouse piece for a complete look.",
+    styleCode: "WEN467WHITE",
+    set: "Saree & Blouse",
+    composition: "Net",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/WHITE EMBROIDERED NET SAREE.webp"
+  },
+  // Entry 6
+  {
+    name: "MAROON VELVET ANARKALI SUIT",
+    originalPrice: "₹5899",
+    offerPrice: "₹7499",
+    description: "A luxurious maroon velvet anarkali suit with intricate gold embroidery. The set includes a churidar and a matching dupatta.",
+    styleCode: "MVA583MAROON",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Velvet",
+    fit: "Flared fit",
+    care: "Dry clean only",
+    image: "Images/MAROON VELVET ANARKALI SUIT.jpg"
+  },
+  // Entry 7
+  {
+    name: "PEACH EMBROIDERED GEORGETTE SAREE",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A graceful peach georgette saree with intricate embroidery. It comes with a matching blouse piece for a complete ethnic look.",
+    styleCode: "PEG598PEACH",
+    set: "Saree & Blouse",
+    composition: "Georgette",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/PEACH EMBROIDERED GEORGETTE SAREE.jpg"
+  },
+  // Entry 8
+  {
+    name: "SILVER EMBELLISHED STRAIGHT KURTA SET",
+    originalPrice: "₹3999",
+    offerPrice: "₹5499",
+    description: "A stylish silver embellished straight kurta set with intricate patterns. It is paired with matching straight pants.",
+    styleCode: "SEK463SILVER",
+    set: "Kurta & Straight Pants",
+    composition: "Silk",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/SILVER EMBELLISHED STRAIGHT KURTA SET.webp"
+  },
+  // Entry 9
+  {
+    name: "TURQUOISE BLUE EMBROIDERED PALAZZO SUIT",
+    originalPrice: "₹4999",
+    offerPrice: "₹6699",
+    description: "A vibrant turquoise blue palazzo suit with intricate embroidery on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "TBE632TURQUOISE",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Cotton",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/TURQUOISE BLUE EMBROIDERED PALAZZO SUIT.jpg"
+  },
+  // Entry 10
+  {
+    name: "GOLDEN BROCADE LEHENGA CHOLI SET",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A stunning golden brocade lehenga choli set with intricate patterns. The set includes a matching choli and dupatta.",
+    styleCode: "GBL574GOLD",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Brocade",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/GOLDEN BROCADE LEHENGA CHOLI SET.jpg"
+  },
+
+
+
+  {
+    name: "NAVY BLUE EMBROIDERED ANARKALI SUIT",
+    originalPrice: "₹4799",
+    offerPrice: "₹6499",
+    description: "A sophisticated navy blue anarkali suit with intricate embroidery on the kurta. It is paired with matching churidar pants and a dupatta.",
+    styleCode: "NBE742NAVY",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Georgette",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/NAVY BLUE EMBROIDERED ANARKALI SUIT.jpg"
+  },
+  // Entry 2
+  {
+    name: "LAVENDER BANARASI SILK SAREE",
+    originalPrice: "₹3899",
+    offerPrice: "₹5499",
+    description: "A stunning lavender Banarasi silk saree with intricate zari weaving. It comes with a matching blouse piece for a complete traditional look.",
+    styleCode: "LBS693LAVENDER",
+    set: "Saree & Blouse",
+    composition: "Banarasi Silk",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/LAVENDER BANARASI SILK SAREE.webp"
+  },
+  // Entry 3
+  {
+    name: "PEACH EMBELLISHED ANARKALI GOWN",
+    originalPrice: "₹5499",
+    offerPrice: "₹7999",
+    description: "A peach anarkali gown embellished with sequins and intricate threadwork. It features a fitted bodice and a flared bottom.",
+    styleCode: "PEA854PEACH",
+    set: "Anarkali Gown",
+    composition: "Georgette",
+    fit: "Fitted bodice, Flared bottom",
+    care: "Dry clean only",
+    image: "Images/PEACH EMBELLISHED ANARKALI GOWN.avif"
+  },
+  // Entry 4
+  {
+    name: "BLACK AND GOLDEN BANDHANI PRINT LEHENGA CHOLI",
+    originalPrice: "₹4399",
+    offerPrice: "₹5999",
+    description: "A classic black and golden lehenga choli set with bandhani print. The set includes a matching choli and dupatta.",
+    styleCode: "BGBL467BLACK",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Silk",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/BLACK AND GOLDEN BANDHANI PRINT LEHENGA CHOLI.jpg"
+  },
+  // Entry 5
+  {
+    name: "WHITE AND GOLDEN EMBROIDERED NET SAREE",
+    originalPrice: "₹4199",
+    offerPrice: "₹5899",
+    description: "A graceful white net saree with intricate golden embroidery. It comes with a matching blouse piece for a complete ethnic look.",
+    styleCode: "WEN567WHITE",
+    set: "Saree & Blouse",
+    composition: "Net",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/WHITE AND GOLDEN EMBROIDERED NET SAREE.jpg"
+  },
+  // Entry 6
+  {
+    name: "BURGUNDY VELVET ANARKALI SUIT",
+    originalPrice: "₹5899",
+    offerPrice: "₹7499",
+    description: "A luxurious burgundy velvet anarkali suit with intricate gold embroidery. The set includes a churidar and a matching dupatta.",
+    styleCode: "BVA603BURGUNDY",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Velvet",
+    fit: "Flared fit",
+    care: "Dry clean only",
+    image: "Images/BURGUNDY VELVET ANARKALI SUIT.jpg"
+  },
+  // Entry 7
+  {
+    name: "AQUA BLUE EMBROIDERED GEORGETTE SAREE",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A stunning aqua blue georgette saree with intricate embroidery. It comes with a matching blouse piece for a complete ethnic ensemble.",
+    styleCode: "AEG632AQUA",
+    set: "Saree & Blouse",
+    composition: "Georgette",
+    fit: "Traditional",
+    care: "Dry clean recommended",
+    image: "Images/AQUA BLUE EMBROIDERED GEORGETTE SAREE.jpg"
+  },
+  // Entry 8
+  {
+    name: "SILVER EMBELLISHED FLARED KURTA SET",
+    originalPrice: "₹3999",
+    offerPrice: "₹5499",
+    description: "A stylish silver embellished flared kurta set with intricate patterns. It is paired with matching flared pants.",
+    styleCode: "SEF478SILVER",
+    set: "Kurta & Flared Pants",
+    composition: "Silk",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/SILVER EMBELLISHED FLARED KURTA SET.jpg"
+  },
+  // Entry 9
+  {
+    name: "GOLDEN BROCADE STRAIGHT KURTA SET",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A stunning golden brocade straight kurta set with intricate patterns. The set includes matching straight pants.",
+    styleCode: "GBS594GOLD",
+    set: "Kurta & Straight Pants",
+    composition: "Brocade",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/GOLDEN BROCADE STRAIGHT KURTA SET.avif"
+  },
+
+  {
+    name: "BLACK EMBROIDERED SILK ANARKALI SUIT",
+    originalPrice: "₹4799",
+    offerPrice: "₹6499",
+    description: "A stunning black silk anarkali suit with intricate embroidery on the kurta. It is paired with matching churidar pants and a dupatta.",
+    styleCode: "BESA721BLACK",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Silk",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/BLACK EMBROIDERED SILK ANARKALI SUIT.jpg"
+  },
+  // Entry 2
+  {
+    name: "TEAL GREEN VELVET LEHENGA CHOLI SET",
+    originalPrice: "₹3899",
+    offerPrice: "₹5499",
+    description: "A luxurious teal green velvet lehenga choli set with intricate gold embroidery. The set includes a matching choli and dupatta.",
+    styleCode: "TGVLC693TEAL",
+    set: "Lehenga, Choli & Dupatta",
+    composition: "Velvet",
+    fit: "Regular fit",
+    care: "Dry clean recommended",
+    image: "Images/TEAL GREEN VELVET LEHENGA CHOLI SET.webp"
+  },
+  // Entry 3
+  {
+    name: "PEACH EMBELLISHED PALAZZO SUIT",
+    originalPrice: "₹5499",
+    offerPrice: "₹7999",
+    description: "A peach embellished palazzo suit with intricate sequins and threadwork on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "PEPS854PEACH",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Georgette",
+    fit: "Straight fit",
+    care: "Dry clean only",
+    image: "Images/PEACH EMBELLISHED PALAZZO SUIT.webp"
+  },
+  // Entry 4
+  {
+    name: "MAROON EMBROIDERED BROCADE ANARKALI SUIT",
+    originalPrice: "₹4399",
+    offerPrice: "₹5999",
+    description: "A classic maroon brocade anarkali suit with intricate patterns. It is paired with matching churidar pants and a dupatta.",
+    styleCode: "MEBA567MAROON",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Brocade",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/MAROON EMBROIDERED BROCADE ANARKALI SUIT.jpg"
+  },
+  // Entry 5
+  {
+    name: "WHITE EMBROIDERED NET PALAZZO SUIT",
+    originalPrice: "₹4199",
+    offerPrice: "₹5899",
+    description: "A stunning white net palazzo suit with intricate embroidery on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "WENPS603WHITE",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Net",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/WHITE EMBROIDERED NET PALAZZO SUIT.jpg"
+  },
+  // Entry 6
+  {
+    name: "GOLDEN BROCADE ANARKALI GOWN SET",
+    originalPrice: "₹5899",
+    offerPrice: "₹7499",
+    description: "A glamorous golden brocade anarkali gown with intricate patterns. It features a fitted bodice and a flowy flare.",
+    styleCode: "GBAG594GOLDEN",
+    set: "Anarkali Gown",
+    composition: "Brocade",
+    fit: "Fitted bodice, Flared bottom",
+    care: "Dry clean only",
+    image: "Images/GOLDEN BROCADE ANARKALI GOWN SET.webp"
+  },
+  // Entry 7
+  {
+    name: "AQUA BLUE EMBROIDERED GEORGETTE PALAZZO SUIT",
+    originalPrice: "₹4599",
+    offerPrice: "₹6299",
+    description: "A gorgeous aqua blue georgette palazzo suit with intricate embroidery on the kurta. It is paired with matching palazzo pants and a dupatta.",
+    styleCode: "AEGLPS632AQUA",
+    set: "Kurta, Palazzo & Dupatta",
+    composition: "Georgette",
+    fit: "Straight fit",
+    care: "Dry clean recommended",
+    image: "Images/AQUA BLUE EMBROIDERED GEORGETTE PALAZZO SUIT.jpg"
+  },
+  // Entry 8
+  {
+    name: "SILVER EMBELLISHED ANARKALI SUIT",
+    originalPrice: "₹3999",
+    offerPrice: "₹5499",
+    description: "A stylish silver embellished anarkali suit with intricate sequins and threadwork. It is paired with matching churidar pants and a dupatta.",
+    styleCode: "SEAS478SILVER",
+    set: "Anarkali Suit with Churidar & Dupatta",
+    composition: "Silk",
+    fit: "Flared fit",
+    care: "Dry clean recommended",
+    image: "Images/SILVER EMBELLISHED ANARKALI SUIT.jpg"
+  },
+
+  {
+    name: "GOLDEN ETHNIC EMBROIDERED LEHENGA",
+    originalPrice: "₹4999",
+    offerPrice: "₹6499",
+    description: "A stunning golden ethnic embroidered lehenga with intricate zari and mirror work. It comes with a matching blouse and a net dupatta.",
+    styleCode: "GEEL567GOLD",
+    set: "Lehenga with Blouse & Dupatta",
+    composition: "Velvet and Net",
+    fit: "A-line fit",
+    care: "Dry clean recommended",
+    image: "Images/GOLDEN ETHNIC EMBROIDERED LEHENGA.jpg"
+}
+
+];
+
+
+let container = document.getElementById('container');
+
+        container.innerHTML = arr.map((e, index) => {
+            return (
+                `<div class="products">
+
+                  <div class="img-div">
+                    <img class="img-pic" src="${e.image}" alt="${e.name}">
+                  </div>
+
+                  <div class="product-details">
+
+                    <div class="product-name">
+                      ${e.name}
+                      <span class="style-code">${e.styleCode}</span>
+                    </div>
+
+                    <div class="price-tag">
+                      <span style="color:grey"><s>${e.offerPrice}</s></span>
+                      <span style="font-weight:bolder">${e.originalPrice}</span>
+                    </div>
+
+                    <div class="description">
+                      ${e.description}  
+                    </div>
+
+                    <div class="fabric-details">
+                      <span style="font-weight:bolder">Fabric Details:</span>
+                      <ul>
+                      <li><b>Composition</b> - ${e.composition}</li>
+                      <li><b>Fit</b> - ${e.fit}</li>
+                      <li><b>care</b> - ${e.care}</li>
+                      </ul>
+                    </div>
+
+                    <div class="in-box">
+                      <span style="font-weight:bolder">In Box:</span>
+                      <span>${e.set}</span>
+                    </div>
+
+                    <div class="product-button">
+                      <button id="product-show-btn"  onclick="ContactUs()">Contact Us</button>  
+                    </div>
+
+                    </div>
+
+
+                </div>`
+            );
+        }).join('');
+    </script>
+</body>
+</html>
